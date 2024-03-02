@@ -1,0 +1,31 @@
+.container {
+    margin-top: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* Prevent wrapping of table content */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for text overflow */
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
